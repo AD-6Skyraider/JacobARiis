@@ -1,3 +1,21 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+/* DO NOT DELETE - LOGO BACKGROUND COLOR #c8e1f1 */
+
+.navbar-custom {
+  font-family: 'Allison', cursive;
+}
+.navbar-brand {
+  font-size: 120px;
+  text-decoration: underline;
+}
+
+.navbar-text {
+  font-size: 30px;
+  margin-top: 200px;
+}
+
 .dot {
     display: flex;
     flex-direction: column;    
@@ -15,3 +33,48 @@
     background-color: #bbb;
     border-radius: 50%;
   }
+
+  /* MEDIA QUERIES */
+
+/* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .navbar-brand {
+      font-size: 12vmin;
+              }
+        #riisLogo {
+          width: 50%;
+          height: 50%;
+        }        
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width:600px) {
+  .navbar-brand {
+    font-size: 12vmin;
+            }
+      #riisLogo {
+        width: 50%;
+        height: 50%;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 1000px) {
+
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .navbar-brand {
+    font-size: 18vmin;
+            }
+      #riisLogo {
+        width: 25%;
+        height: 25%;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+  
+}  */
