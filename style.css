@@ -1,8 +1,11 @@
 /* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
 
-/* DO NOT DELETE - LOGO BACKGROUND COLOR #c8e1f1 */
+@import url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+/*  font-family: 'Petrona', serif; */
 
+
+/* NAVBAR HEADER AND TABS */
 .navbar-custom {
   font-family: 'Allison', cursive;
 }
@@ -11,17 +14,25 @@
   text-decoration: underline;
 }
 
-.navbar-text {
+.navbar-text {  
   font-size: 30px;
-  margin-top: 200px;
+  font-family: 'Petrona', serif;
 }
+
+
+/* SHOWCASE */
+
+#showcase {
+  background-color: rgb(224, 224, 240);
+}
+
 
 .dot {
     display: flex;
     flex-direction: column;    
     height: 325px;
     width: 325px;
-    background-color: #bbb;
+    background-color: rgb(219, 205, 205);
     border-radius: 50%;
   }
 
@@ -30,9 +41,11 @@
     flex-direction: column;
     height: 200px;
     width: 200px;
-    background-color: #bbb;
+    background-color: rgb(219, 205, 205);
     border-radius: 50%;
   }
+
+
 
   /* MEDIA QUERIES */
 
@@ -59,7 +72,6 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 1000px) {
-
   
 }
 
