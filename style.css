@@ -6,24 +6,73 @@
 
 
 /* NAVBAR HEADER AND TABS */
-.navbar-custom {
+/* .navbar-custom {
   font-family: 'Allison', cursive;
 }
 .navbar-brand {
   font-size: 120px;
   text-decoration: underline;
+  background-color: rgba(250, 249, 183, 0.918);
+} */
+
+.jumbotron {
+  background-color: rgba(250, 249, 183, 0.918);
 }
 
-.navbar-text {  
-  font-size: 30px;
+.container {  
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;    
+}
+
+#Logo {
+  margin-bottom: 15px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+#Jacobh1 {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  font-family: 'Allison', cursive;
+  text-decoration: underline;
+}
+
+#JakesPlace {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 6;
   font-family: 'Petrona', serif;
 }
 
+/* .navbar-text {  
+  font-size: 30px;
+  font-family: 'Petrona', serif;
+} */
+
+.nav-link {
+  color: black;
+}
+
+
+
+.nav-item {
+  background-color: chartreuse;
+}
+
+.nav-tabs {
+  background-color: rgb(205, 205, 207);
+}
 
 /* SHOWCASE */
 
 #showcase {
-  background-color: rgb(224, 224, 240);
+  background-color: rgb(219, 233, 206);
 }
 
 
