@@ -6,25 +6,16 @@
 
 
 /* NAVBAR HEADER AND TABS */
-/* .navbar-custom {
-  font-family: 'Allison', cursive;
-}
-.navbar-brand {
-  font-size: 120px;
-  text-decoration: underline;
-  background-color: rgba(250, 249, 183, 0.918);
-} */
 
-/* .jumbotron {
-  background-color: rgba(250, 250, 226, 0.918);
-} */
+header {
+    background-color: rgba(250, 250, 226, 0.918);
+}
 
 .container {  
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-auto-rows: repeat(4, 1fr);
   gap: 0px;  
-  background-color: ; rgba(250, 250, 226, 0.918);
 }
 
 #Logo {
@@ -46,40 +37,26 @@
   font-size: 150px;
 }
 
-/* #JakesPlace {
-  grid-column-start: 4;
-  grid-column-end: 10;
-  grid-row-start: 3;
-  grid-row-end: 3;
-  font-family: 'Petrona', serif;
-  font-size: 40px;
-} */
-
-/* .navbar-text {  
-  font-size: 30px;
-  font-family: 'Petrona', serif;
-} */
-
 .nav {
-  margin-left: 5px;
+  margin-left: 2px;  
 }
 
 .nav-link {
   color: black;  
+  font-family: 'Petrona', serif;  
 }
 
 #homeTab {
   border-left: black 1px solid;
-
 }
 
 .nav-item {
   background-color: rgb(230, 228, 238);
   border-top: black 1px solid;
   border-right: black 1px solid;
+  border-left: black 1px solid;
   border-top-right-radius: 25%;
-  border-top-left-radius: 25%;
-  
+  border-top-left-radius: 25%;  
 }
 
 .nav-tabs {
@@ -87,12 +64,53 @@
   border-bottom: black 1px solid;
   }
 
+  a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+ 
+  a:visited {
+    color: dark gray;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .href:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
 /* SHOWCASE */
 
 #showcase {
-  background-color: rgb(219, 233, 206);
+  background-color: rgb(209, 210, 238);
 }
 
+#jakesPlace {
+  font-family: 'Petrona', serif;
+  margin: 0px 20px 0px 20px;
+  padding: 25px;
+}
+
+#mission {
+  background-color: rgb(232, 233, 248);
+  margin: 50px;
+  padding: 25px;
+  border: 5px double #1C6EA4;
+  border-radius: 1px 200px 0px 100px;
+  font-family: 'Petrona', serif;
+  -webkit-box-shadow: -20px 18px 38px -7px rgba(0,0,0,0.53); 
+ box-shadow: -20px 18px 38px -7px rgba(0,0,0,0.53);
+}
 
 
 .dot {
