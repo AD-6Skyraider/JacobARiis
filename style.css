@@ -5,8 +5,7 @@
 /*  font-family: 'Petrona', serif; */
 
 
-/* NAVBAR HEADER AND TABS */
-
+/* HEADER STYLING */
 header {
     background-color: rgba(250, 250, 226, 0.918);
 }
@@ -37,6 +36,7 @@ header {
   font-size: 150px;
 }
 
+/* NAVBAR AND TAB STYLING */
 .nav {
   margin-left: 2px;  
 }
@@ -60,49 +60,49 @@ header {
 }
 
 .nav-tabs {
-  background-color: ; rgba(250, 250, 226, 0.918);
+  background-color: rgba(250, 250, 226, 0.918);
   border-bottom: black 1px solid;
-  }
+}
 
-  /* a:link {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-  }
- 
-  a:visited {
-    color: dark gray;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  .href:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-  a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-  } */
+/* a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
 
-  
+a:visited {
+  color: dark gray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.href:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+} */
+
 
 
 /* SHOWCASE */
-
 #showcase {
   background-color: rgb(209, 210, 238);
 }
 
+/* HEADLINE STYLING */
 #jakesPlace {
   font-family: 'Petrona', serif;
   margin: 0px 20px 0px 20px;
   padding: 25px;
 }
 
+/* MISSION STATEMENT STYLING */
 #mission {
   background-color: rgb(232, 233, 248);
   margin: 50px;
@@ -115,55 +115,32 @@ header {
 }
 
 
-p {
-  padding: 10px;
-}
-
-#wrapper {
-  margin: 0 auto;
-  width: 1200px;
-  
-}
-
+/* WELCOME TO JACOB A. RIIS STYLING */
 #smallWaterTower {
-  margin-top: 15px;
-  margin-right: 50px;
-  margin-left: 75px;
+  margin-top: 10px;
+  margin-left: 15px;
+  border: #33CCFF 15px solid;
+  border-radius: 5%;
 }
 
-#content {
-  float: left;
-  background: #FFFFFF;
-  width: 900px;
-}
-
-#leftcolumn {
-  background: #33CCFF;
-  width: 300px;
-  float: left;
+#quote {
+  background-color: #c0ebfa;
 }
 
 
+/* ACCORDION STYLING */
+#btn1, #btn2, #btn3 {
+  background-color: #33CCFF;
+  color: black;
+}
 
-.dot {
-    display: flex;
-    flex-direction: column;    
-    height: 325px;
-    width: 325px;
-    background-color: rgb(219, 205, 205);
-    border-radius: 50%;
-  }
-
-  .dot2 {
-    display: flex;
-    flex-direction: column;
-    height: 200px;
-    width: 200px;
-    background-color: rgb(219, 205, 205);
-    border-radius: 50%;
-  }
+#accordianSection{
+  margin-top: 50px;
+  margin-bottom: 40px;  
+}
 
 
+/* FOOTER STYLING */
   #footer {
     background-color: rgb(20, 20, 20);
     color: burlywood;
@@ -196,6 +173,7 @@ p {
     margin-top: 40px;
     font-size: 15vmin;              
   } 
+  
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
