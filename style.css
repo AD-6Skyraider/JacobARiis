@@ -3,11 +3,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
 /*  font-family: 'Petrona', serif; */
-
+/* rgba(250, 250, 226, 0.918) */
 
 /* HEADER STYLING */
 header {
-    background-color: rgba(250, 250, 226, 0.918);
+    background-color: whitesmoke;
 }
 
 .container {  
@@ -60,7 +60,7 @@ header {
 }
 
 .nav-tabs {
-  background-color: rgba(250, 250, 226, 0.918);
+  background-color: whitesmoke;
   border-bottom: black 1px solid;
 }
 
