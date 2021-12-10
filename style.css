@@ -140,6 +140,12 @@ a:active {
   margin-bottom: 40px;  
 }
 
+#riisLinks {
+  padding: 10px;
+  background-color: #c0ebfa;
+  font-size: 18px;
+}
+
 
 /* FOOTER STYLING */
   #footer {
