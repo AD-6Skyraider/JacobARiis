@@ -74,18 +74,19 @@ header {
    font-family: 'Petrona', serif;
    padding-top: 25px;
    padding-left: 50px;
-
 }
 
 /* CARD STYLING */
 .shelter {
   background-color: whitesmoke;
   border-radius: 5%;
+  font-family: 'Petrona', serif;
 }
 
 #nationwide {
   margin: 0 auto; 
   float: none; 
+  font-family: 'Petrona', serif;
  }
 
  #nationwide-card-footer {
@@ -94,7 +95,6 @@ header {
 
  #featured, #twoDays {
   background-color: whitesmoke;
-
  }
 
 
