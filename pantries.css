@@ -98,6 +98,12 @@ header {
  }
 
 /* INFORMATION CARD STYLING */
+.pantries {
+  background-color: whitesmoke;
+  border-radius: 5%;
+  font-family: 'Petrona', serif;
+  padding: 10px;
+}
 
 
 /* FOOTER STYLING */
