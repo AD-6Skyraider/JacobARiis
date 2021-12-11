@@ -111,3 +111,53 @@ header {
   background-color: rgb(20, 20, 20);
   color: burlywood;
 }
+
+
+  /* MEDIA QUERIES */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #Jacobh1 {
+    margin-top: 40px;
+    font-size: 12vmin;              
+  }                
+  .pantries {
+    font-size: 14px;    
+  }
+  .btn {
+    font-size: 14px;    
+  }
+  .card-title {
+    font-size: 14px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width:767px) {
+#Jacobh1 {
+  margin-top: 40px;
+  font-size: 11vmin;              
+}     
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+#Jacobh1 {
+  margin-top: 40px;
+  font-size: 15vmin;              
+} 
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+#Jacobh1 {
+  margin-top: 40px;
+  font-size: 20vmin;              
+} 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+
+}  */
