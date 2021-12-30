@@ -64,6 +64,30 @@ header {
   border-bottom: black 1px solid;
 }
 
+/* SHOWCASE */
+#showcase {
+  background-color: rgb(209, 210, 238);
+}
+
+/* HEADLINE STYLING */
+#headline {
+  font-family: 'Petrona', serif;
+  margin: 0px 20px 0px 20px;
+  padding: 25px;
+}
+
+/* ACCORDION STYLING */
+#btn1, #btn2, #btn3 {
+  background-color: #33CCFF;
+  color: black;
+  font-size: 20px;
+}
+
+#accordianSection {
+  margin-top: 50px;
+  margin-bottom: 40px;  
+}
+
 
 /* FOOTER STYLING */
 #footer {
