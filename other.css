@@ -72,7 +72,7 @@ header {
 /* HEADLINE STYLING */
 #headline {
   font-family: 'Petrona', serif;
-  margin: 0px 20px 0px 20px;
+  margin: 0px 30px 0px 20px;
   padding: 25px;
 }
 
@@ -84,8 +84,12 @@ header {
 }
 
 #accordianSection {
-  margin-top: 50px;
-  margin-bottom: 40px;  
+  margin-top: 20px;
+}
+
+.accordion {
+  width: 95vw;
+  margin-bottom: 50px;
 }
 
 
@@ -94,3 +98,43 @@ header {
   background-color: rgb(20, 20, 20);
   color: burlywood;
 }
+
+/* MEDIA QUERIES */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #Jacobh1 {
+    margin-top: 40px;
+    font-size: 12vmin;              
+  }                
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width:767px) {
+#Jacobh1 {
+  margin-top: 40px;
+  font-size: 11vmin;              
+}     
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+#Jacobh1 {
+  margin-top: 40px;
+  font-size: 15vmin;              
+} 
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+#Jacobh1 {
+  margin-top: 40px;
+  font-size: 20vmin;              
+} 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+
+}  */
